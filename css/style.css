@@ -38,12 +38,37 @@ h3 {
 }
 
 p {
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-md);
+  border-radius: 2px;
+  padding: 8px;
+  margin: 2rem;
+  background: white;
+  border: 1px solid white;
+  box-shadow: 0 1px 0 1px black,
+              inset 0 1px 0 1px 
 }
 
 html {
   font-family: 'pokmon_ds_fontregular', serif;
   background-color: pink;
   scroll-behavior: smooth;
+  line-height: 1;
 }
+header {
+  display: flex;
+  justify content: space-between;
+  align-items: center;
+
+}
+nav {
+  font-size: var(--font-size-base);
+  
+}
+nav ul{
+  list-style: none;
+  
+}
+  nav li a {
+    text-decoration: none;
+  }
 
