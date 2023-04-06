@@ -37,6 +37,16 @@ h3 {
   font-size: var(--font-size-md);
 }
 
+span.pb {
+  background-color: pink;
+  vertical-align: bottom;
+  color: white;
+  font-size: 1.7rem;
+  padding-right: .25rem;
+  
+ 
+}
+
 p {
   font-size: var(--font-size-md);
   border-radius: 2px;
