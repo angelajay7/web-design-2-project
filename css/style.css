@@ -31,6 +31,14 @@ h1 {
 
 h2 {
   font-size: var(--font-size-lg);
+  border-radius: 2px;
+  padding: 8px;
+  margin: 2rem;
+  margin-bottom: 0;
+  background: #FAF8B1;
+  border: 1px solid white;
+  box-shadow: 0 1px 0 1px black,
+              inset 0 1px 0 1px 
 }
 
 h3 {
@@ -38,9 +46,9 @@ h3 {
 }
 
 span.pb {
-  background-color: pink;
+  background-color: #FAF8B1;
   vertical-align: bottom;
-  color: white;
+  color: black;
   font-size: 1.7rem;
   padding-right: .25rem;
   
@@ -52,6 +60,7 @@ p {
   border-radius: 2px;
   padding: 8px;
   margin: 2rem;
+  margin-top:0;
   background: white;
   border: 1px solid white;
   box-shadow: 0 1px 0 1px black,
