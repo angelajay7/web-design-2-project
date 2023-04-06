@@ -12,8 +12,8 @@
 
 @font-face {
   font-family: 'pokmon_ds_fontregular';
-  src: url('pokemon-ds-font-webfont.woff2') format('woff2'),
-       url('pokemon-ds-font-webfont.woff') format('woff');
+  src: url('../fonts/pokemon-ds-font-webfont.woff2') format('woff2'),
+       url('../fonts/pokemon-ds-font-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
