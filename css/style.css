@@ -23,3 +23,27 @@
 *::after {
   box-sizing: border-box;
 }
+
+h1 {
+  font-size: var(--font-size-xxl);
+  font-weight: 700;
+}
+
+h2 {
+  font-size: var(--font-size-lg);
+}
+
+h3 {
+  font-size: var(--font-size-md);
+}
+
+p {
+  font-size: var(--font-size-base);
+}
+
+html {
+  font-family: 'pokmon_ds_fontregular', serif;
+  background-color: pink;
+  scroll-behavior: smooth;
+}
+
