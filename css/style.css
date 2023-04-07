@@ -50,12 +50,25 @@ nav ul{
   nav li a {
     text-decoration: none;
   }
+  .about {
+    background-color: white;
+      border-radius: 1rem;
+      padding: 1rem ;
+      margin-bottom: 1rem;
+  }
 
   .cujamb {
     background-color: white;
     border-radius: 1rem;
-    padding: 2rem;
-    margin-bottom: 2rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 1rem;
   }
 
 h1 {
@@ -63,7 +76,7 @@ h1 {
   font-weight: 700;
   border-radius: 2px;
   padding: 8px;
-  margin-bottom: 0;
+  margin: 0;
   background: #80AC71;
   border: 1px solid white;
   box-shadow: 0 1px 0 1px black,
