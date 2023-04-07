@@ -21,7 +21,7 @@
 
 *::before,
 *::after {
-  box-sizing: border-box; 
+  box-sizing: inherit; 
 
 }
 html {
@@ -38,17 +38,39 @@ header {
 
 }
 nav {
+  display: none;
   font-size: var(--font-size-base);
-
 }
+
+  input.nav-toggle {
+    position: absolute !important;
+    top: -9999px !important;
+    left: -9999px !important;
+  }
+
+    input.nav-toggle:checked ~ nav {
+      display: block;
+    }
+
+    label.nav-toggle-label {
+      display: block;
+    }
+
+.menu {
+  color: white;
+}
+
 nav ul{
   list-style: none;
   display: flex;
-  gap: 2rem;
+  flex-direction: column;
+  
   
 }
   nav li a {
+    font-size: var(--font-size-lg);
     text-decoration: none;
+    color: black;
   }
   .about {
     background-color: white;
