@@ -21,57 +21,15 @@
 
 *::before,
 *::after {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; 
 
-h1 {
-  font-size: var(--font-size-xxl);
-  font-weight: 700;
 }
-
-h2 {
-  font-size: var(--font-size-lg);
-  border-radius: 2px;
-  padding: 8px;
-  margin: 2rem;
-  margin-bottom: 0;
-  background: #FAF8B1;
-  border: 1px solid white;
-  box-shadow: 0 1px 0 1px black,
-              inset 0 1px 0 1px 
-}
-
-h3 {
-  font-size: var(--font-size-md);
-}
-
-span.pb {
-  background-color: #FAF8B1;
-  vertical-align: bottom;
-  color: black;
-  font-size: 1.7rem;
-  padding-right: .25rem;
-  
- 
-}
-
-p {
-  font-size: var(--font-size-md);
-  border-radius: 2px;
-  padding: 8px;
-  margin: 2rem;
-  margin-top:0;
-  background: white;
-  border: 1px solid white;
-  box-shadow: 0 1px 0 1px black,
-              inset 0 1px 0 1px 
-}
-
 html {
   font-family: 'pokmon_ds_fontregular', serif;
-  background-color: pink;
+  background-color: #DF90A1;
   scroll-behavior: smooth;
   line-height: 1;
+  margin: 0.5rem;
 }
 header {
   display: flex;
@@ -81,13 +39,91 @@ header {
 }
 nav {
   font-size: var(--font-size-base);
-  
+
 }
 nav ul{
   list-style: none;
+  display: flex;
+  gap: 2rem;
   
 }
   nav li a {
     text-decoration: none;
   }
+
+  .cujamb {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+
+h1 {
+  font-size: var(--font-size-xxl);
+  font-weight: 700;
+  border-radius: 2px;
+  padding: 8px;
+  margin-bottom: 0;
+  background: #80AC71;
+  border: 1px solid white;
+  box-shadow: 0 1px 0 1px black,
+              inset 0 1px 0 1px 
+  
+}
+
+h2 {font-size: var(--font-size-lg);
+  border-radius: 2px;
+  padding: 8px;
+  margin-bottom: 0;
+  background: pink;
+  border: 1px solid white;
+  box-shadow: 0 1px 0 1px black,
+              inset 0 1px 0 1px 
+  
+}
+
+h3 {
+  font-size: var(--font-size-xl);
+  border-radius: 2px;
+  padding: 14px;
+  margin: 0;
+  background: #FAF8B1;
+  border: 1px solid white;
+  box-shadow: 0 1px 0 1px black,
+              inset 0 1px 0 1px 
+}
+
+p {
+  font-size: var(--font-size-md);
+  border-radius: 2px;
+  padding: 8px;
+  margin-top:0;
+  background: white;
+  border: 1px solid white;
+  box-shadow: 0 1px 0 1px black,
+              inset 0 1px 0 1px 
+}
+
+
+span.pb {
+  background-color: #pink;
+  vertical-align: bottom;
+  color: white;
+  font-size: 1.7rem;
+  padding-right: .25rem;
+  
+}
+
+span.down {
+  font-size: 1.5rem;
+  float: right;
+}
+
+img {
+  max-width: 50%;
+  height: auto;
+  float: right;
+  margin-right: .5rem;
+  margin-top: .5rem;
+}
 
