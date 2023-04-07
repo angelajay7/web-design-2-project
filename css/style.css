@@ -13,7 +13,7 @@
 @font-face {
   font-family: 'pokmon_ds_fontregular';
   src: url('../fonts/pokemon-ds-font-webfont.woff2') format('woff2'),
-       url('../fonts/pokemon-ds-font-webfont.woff') format('woff');
+    url('../fonts/pokemon-ds-font-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
@@ -21,9 +21,10 @@
 
 *::before,
 *::after {
-  box-sizing: inherit; 
+  box-sizing: inherit;
 
 }
+
 html {
   font-family: 'pokmon_ds_fontregular', serif;
   background-color: #DF90A1;
@@ -31,67 +32,71 @@ html {
   line-height: 1;
   margin: 0.5rem;
 }
+
 header {
   display: flex;
   justify content: space-between;
   align-items: center;
 
 }
+
 nav {
   display: none;
   font-size: var(--font-size-base);
 }
 
-  input.nav-toggle {
-    position: absolute !important;
-    top: -9999px !important;
-    left: -9999px !important;
-  }
+input.nav-toggle {
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+}
 
-    input.nav-toggle:checked ~ nav {
-      display: block;
-    }
+input.nav-toggle:checked~nav {
+  display: block;
+}
 
-    label.nav-toggle-label {
-      display: block;
-    }
+label.nav-toggle-label {
+  display: block;
+}
 
 .menu {
   color: white;
 }
 
-nav ul{
+nav ul {
   list-style: none;
   display: flex;
   flex-direction: column;
-  
-  
+
+
 }
-  nav li a {
-    font-size: var(--font-size-lg);
-    text-decoration: none;
-    color: black;
-  }
-  .about {
-    background-color: white;
-      border-radius: 1rem;
-      padding: 1rem ;
-      margin-bottom: 1rem;
-  }
 
-  .cujamb {
-    background-color: white;
-    border-radius: 1rem;
-    padding: 1rem;
-    margin-bottom: 1rem;
-  }
+nav li a {
+  font-size: var(--font-size-lg);
+  text-decoration: none;
+  color: black;
+}
 
-  .logo {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-bottom: 1rem;
-  }
+.about {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.cujamb {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 1rem;
+}
 
 h1 {
   font-size: var(--font-size-xxl);
@@ -102,19 +107,18 @@ h1 {
   background: #80AC71;
   border: 1px solid white;
   box-shadow: 0 1px 0 1px black,
-              inset 0 1px 0 1px 
-  
+    inset 0 1px 0 1px
 }
 
-h2 {font-size: var(--font-size-lg);
+h2 {
+  font-size: var(--font-size-lg);
   border-radius: 2px;
   padding: 8px;
   margin-bottom: 0;
   background: pink;
   border: 1px solid white;
   box-shadow: 0 1px 0 1px black,
-              inset 0 1px 0 1px 
-  
+    inset 0 1px 0 1px
 }
 
 h3 {
@@ -125,18 +129,18 @@ h3 {
   background: #FAF8B1;
   border: 1px solid white;
   box-shadow: 0 1px 0 1px black,
-              inset 0 1px 0 1px 
+    inset 0 1px 0 1px
 }
 
 p {
   font-size: var(--font-size-md);
   border-radius: 2px;
   padding: 8px;
-  margin-top:0;
+  margin-top: 0;
   background: white;
   border: 1px solid white;
   box-shadow: 0 1px 0 1px black,
-              inset 0 1px 0 1px 
+    inset 0 1px 0 1px
 }
 
 
@@ -146,7 +150,7 @@ span.pb {
   color: white;
   font-size: 1.7rem;
   padding-right: .25rem;
-  
+
 }
 
 span.down {
@@ -161,4 +165,3 @@ img {
   margin-right: .5rem;
   margin-top: .5rem;
 }
-
